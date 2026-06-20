@@ -1,5 +1,7 @@
 # Scrape Engine
 
+🌐 **Live Demo:** [https://wowo515151.github.io/Scrape/](https://wowo515151.github.io/Scrape/)
+
 Scrape Engine is a high-performance HTML/text harvester and automated prompt-injection security analysis scanner. It allows you to search the web using multiple fallback tiers of DuckDuckGo, download targets directly while bypassing common blockages, extract clean prose, and review the natural English text for potential prompt-injection threats.
 
 > [!WARNING]
