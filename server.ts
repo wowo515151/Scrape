@@ -26,7 +26,7 @@ async function startServer() {
     console.log(`[Proxy] Searching for keywords: "${keywords}" (maxResults: ${maxResults}, honest: ${honestUserAgent})`);
     
     const userAgent = honestUserAgent 
-      ? "ScrapeEngine/1.0 (+https://github.com/your-username/scrape-engine; open-source-education-research; contact: wowo515151@gmail.com)"
+      ? "ScrapeEngine/1.0 (+https://github.com/wowo515151/scrape-engine; open-source-education-research; contact: wowo515151@gmail.com)"
       : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
 
     let nonWikiUrls: string[] = [];
@@ -238,7 +238,7 @@ async function startServer() {
     console.log(`[Proxy] Fetching HTML blob for: "${url}" (honest: ${honestUserAgent})`);
 
     const userAgent = honestUserAgent
-      ? "ScrapeEngine/1.0 (+https://github.com/your-username/scrape-engine; open-source-education-research; contact: wowo515151@gmail.com)"
+      ? "ScrapeEngine/1.0 (+https://github.com/wowo515151/scrape-engine; open-source-education-research; contact: wowo515151@gmail.com)"
       : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
 
     let response: Response | null = null;
