@@ -132,6 +132,21 @@ export default function IntelligenceViewer({ articles, sessionId }: Intelligence
         )}
       </div>
 
+      {/* Prominent Scan Limitation Disclaimer */}
+      {totalCount > 0 && (
+        <div className="bg-amber-50/20 px-5 py-2.5 border-b border-neutral-200/50 flex flex-col md:flex-row md:items-center justify-between text-[11px] text-neutral-600 font-sans gap-3">
+          <div className="flex items-start md:items-center gap-2 leading-relaxed">
+            <Info className="w-4 h-4 text-amber-600 shrink-0 mt-0.5 md:mt-0" />
+            <span>
+              <strong className="font-semibold text-neutral-800">Security Guard Disclaimer:</strong> Although harvested text is thoroughly scanned for prompt injection threats, these automated scans are <strong className="text-amber-800 underline">not 100% foolproof</strong>. There are <strong className="text-amber-800 underline">no guarantees</strong> of absolute safety. Always review extracted files before importing them into downstream LLM pipelines.
+            </span>
+          </div>
+          <span className="shrink-0 text-amber-700 font-mono text-[9px] uppercase tracking-wider font-semibold select-none bg-amber-100/50 px-2 py-0.5 rounded border border-amber-200/40 self-start md:self-auto">
+            Scans Not 100% Foolproof
+          </span>
+        </div>
+      )}
+
       {/* Global Auto-Exclusion Notice Ribbon */}
       {totalCount > 0 && threatArticlesCount > 0 && (
         <div className={`px-5 py-2.5 text-xs font-mono border-b flex flex-col sm:flex-row sm:items-center justify-between gap-2 transition-colors ${
