@@ -1,10 +1,5 @@
 # Scrape Engine
 
-[![Deploy to GitHub Pages](https://github.com/wowo515151/scrape-engine/actions/workflows/deploy.yml/badge.svg)](https://github.com/wowo515151/scrape-engine/actions/workflows/deploy.yml)
-[![Live Site](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=flat-square&logo=github)](https://wowo515151.github.io/scrape-engine/)
-
-🌐 **Live Demo (GitHub Pages):** [https://wowo515151.github.io/scrape-engine/](https://wowo515151.github.io/scrape-engine/)
-
 Scrape Engine is a high-performance HTML/text harvester and automated prompt-injection security analysis scanner. It allows you to search the web using multiple fallback tiers of DuckDuckGo, download targets directly while bypassing common blockages, extract clean prose, and review the natural English text for potential prompt-injection threats.
 
 > [!WARNING]
@@ -33,8 +28,8 @@ You will need [Node.js](https://nodejs.org/) (v18 or higher) installed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/wowo515151/scrape-engine.git
-   cd scrape-engine
+   git clone https://github.com/wowo515151/Scrape.git
+   cd Scrape
    ```
 
 2. Install dependencies:
